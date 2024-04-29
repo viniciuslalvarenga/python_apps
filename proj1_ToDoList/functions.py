@@ -1,4 +1,4 @@
-FILEPATH = "proj1_ToDoList/todos_database.txt"
+FILEPATH = "todos_database.txt"
 
 def get_todos( filepath=FILEPATH ):
     """
