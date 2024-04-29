@@ -1,6 +1,11 @@
 import functions
 import PySimpleGUI
 import time
+import os
+
+if not os.path.exists("todos_database.txt"):
+    with open("todos_database.txt","w") as file:
+        pass
 
 PySimpleGUI.theme("Black")
 
